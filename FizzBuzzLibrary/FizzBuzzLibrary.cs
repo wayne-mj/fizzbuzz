@@ -1,4 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿//using System.Reflection.Metadata.Ecma335;
 
 namespace FizzBuzzLibrary;
 
@@ -51,6 +51,8 @@ public static class FizzBuzz
             output += "Buzz";
         }
 
+        // If the output is still empty, return the number as a string
+        // Otherwise, return the output being fizz, buzz or fizzbuzz
         return output == "" ? Number.ToString() : output;
     }
 
